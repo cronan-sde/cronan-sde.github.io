@@ -26,10 +26,6 @@ body {
   color: #008080;
 }
 
-.navbar-toggler-icon {
-  background-image: url("https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729B0");
-}
-
 header a {
   color: #008080 !important;
   font-size: 1.2rem;
