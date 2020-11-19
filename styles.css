@@ -1,0 +1,144 @@
+body {
+  font: 20px/1.5 arial;
+  background: #008080;
+  padding: 0;
+  margin: 0;
+}
+
+/*global*/
+.container {
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+}
+
+/*nav bar*/
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar-name {
+  display: inline-block;
+  padding: 0.4rem 0 0.4rem 0;
+  font-size: 1.8rem;
+  color: #008080;
+}
+
+.navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729B0");
+}
+
+header a {
+  color: #008080 !important;
+  font-size: 1.2rem;
+}
+header a:hover {
+  color: #008080 !important;
+  font-weight: bold;
+}
+header ul {
+  margin-left: auto;
+  justify-content: end;
+}
+header li {
+  display: list-item;
+  padding: 0 0.5em 0 0.5em;
+}
+header p {
+  margin: auto;
+}
+
+/*About section*/
+#top {
+  color: white;
+  min-height: 600px;
+  text-align: center;
+  background-color: gray;
+  margin: 0 100px 0 100px;
+}
+.me {
+  height: 75%;
+  width: 75%;
+  border-radius: 50%;
+  margin-top: 150px;
+}
+#top p {
+  margin-top: 160px;
+  font-size: 22px;
+}
+
+/*Portfolio section*/
+#middle {
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #008080;
+  min-height: 900px;
+  margin: 0 100px 0 100px;
+  border-bottom: solid;
+}
+#middle h1 {
+  font-size: 40px;
+  margin-top: 60px;
+  text-decoration: underline;
+}
+#middle p {
+  margin-top: 200px;
+  font-size: 25px;
+}
+
+/*Contact section*/
+#bottom {
+  min-height: 600px;
+  background-color: #f4f4f4;
+  margin: 0 100px 0 100px;
+  color: #008080;
+}
+#bottom h1 {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid;
+  padding: 5px;
+  font-size: 30px;
+  margin-top: 60px;
+}
+.button1 {
+  margin: 20px 0 0 280px;
+  font-size: 24px;
+}
+#bottom p {
+  font-size: 25px;
+  margin: 80px 60px 0 0;
+}
+
+/*social media link*/
+footer {
+  background-color: purple;
+  color: #008080;
+  padding-top: 25px;
+  min-height: 100px;
+  position: absolute;
+  width: 100%;
+}
+footer h1 {
+  float: left;
+  margin-left: 150px;
+  font-size: 25px;
+}
+.logo {
+  height: 22px;
+  width: 20px;
+  border-radius: 20%;
+}
+footer h2 {
+  float: right;
+  font-size: 25px;
+  margin-right: 150px;
+  margin-bottom: 40px;
+}
