@@ -1,5 +1,5 @@
 body {
-  font: 20px/1.5 arial;
+  font: 1rem/1.5 arial;
   padding: 0;
   margin: 0;
 }
@@ -173,55 +173,56 @@ img {
 
 /*Contact section*/
 #bottom {
-  min-height: 600px;
-  background-color: #f4f4f4;
-  margin: 0 100px 0 100px;
-  color: #008080;
-}
-#bottom h1 {
-  text-align: center;
-  font-size: 40px;
-  text-decoration: underline;
-}
-input {
-  background-color: transparent;
-  border: 0;
-  border-bottom: 1px solid;
-  padding: 5px;
-  font-size: 30px;
-  margin-top: 60px;
-}
-.button1 {
-  margin: 20px 0 0 280px;
-  font-size: 24px;
-}
-#bottom p {
-  font-size: 25px;
-  margin: 80px 60px 0 0;
+  background-color: #fff;
+  padding: 110px 0;
 }
 
-/*social media link*/
+form {
+  display: block;
+  margin-top: 0;
+}
+
+#bottom h1 {
+  margin: 20px 0 10px 0;
+  font-size: 2.25rem;
+}
+
+.contacts {
+  margin-bottom: 1rem !important;
+}
+
+input {
+  background-color: transparent;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+  border-bottom: 1px solid;
+  padding: 0;
+  font-size: 1.6rem;
+  margin-top: 60px;
+}
+
+#input-name {
+  margin-top: 0;
+}
+
+.contact-btn {
+  margin-top: 15px;
+  font-size: 0.8rem;
+}
+
+/*Footer*/
 footer {
-  background-color: purple;
+  background-color: #f7f7f7;
   color: #008080;
   padding-top: 25px;
   min-height: 100px;
   position: absolute;
   width: 100%;
 }
-footer h1 {
-  float: left;
-  margin-left: 150px;
-  font-size: 25px;
-}
-.logo {
-  height: 22px;
-  width: 20px;
-  border-radius: 20%;
-}
-footer h2 {
-  float: right;
-  font-size: 25px;
-  margin-right: 150px;
-  margin-bottom: 40px;
+
+footer p {
+  font-size: 0.8rem;
+  text-align: center;
 }
