@@ -173,27 +173,29 @@ img {
 
 /*Contact section*/
 #bottom {
-  min-height: 600px;
   background-color: #fff;
-  margin: 0 100px 0 100px;
-  color: #008080;
+  padding: 110px 0;
 }
+
 #bottom h1 {
-  text-align: center;
-  font-size: 40px;
-  text-decoration: underline;
+  margin: 0 0 10px;
+  font-size: 2.25rem;
 }
+
 input {
   background-color: transparent;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
   border: 0;
   border-bottom: 1px solid;
   padding: 5px;
   font-size: 30px;
   margin-top: 60px;
 }
-.button1 {
-  margin: 20px 0 0 280px;
-  font-size: 24px;
+.contact-btn {
+  margin-top: 10px;
+  font-size: 0.8rem;
 }
 #bottom p {
   font-size: 25px;

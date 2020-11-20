@@ -173,27 +173,24 @@
     <section id="bottom">
       <!--start of contact section-->
       <div class="container">
-        <h1>Contact Me</h1>
-        <div class="contact">
-          <div class="col-md-6">
-            <form>
-              <input type="name" placeholder="Name">
-            </form>
-            <form>
-              <input type="email" placeholder="Email">
-            </form>
-            <form>
-              <input type="number" placeholder="Number">
-            </form>
-            <form>
-              <input type="message" placeholder="Message">
-            </form>
-            <button type="submit" class="button1">Send</button>
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <h1>Contact</h1>
           </div>
-        </div>
-        <div class="col-md-6">
-          <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, please email me and I will get back to you ASAP. Serious inquiries only.</p>
-        </div>
+          <div class="col-12 col-lg-8">
+            <div class="contacts">
+              <form class="contact">
+                <label for="input-name"></label>
+                <input type="name" placeholder="Name" id="input-name" required>
+                <label for="input-email"></label>
+                <input type="email" placeholder="Email" id="input-email" required>
+                <label for="input-message"></label>
+                <input type="message" placeholder="Message" id="input-message" required>
+              </form>
+                <button type="submit" class="btn btn-outline-primary contact-btn">Send</button>
+              </div>
+            </div>
+        </div>  
     </section>
   <!-- bootstrap js for dropdown -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
