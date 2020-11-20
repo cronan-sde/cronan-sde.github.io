@@ -126,21 +126,49 @@ img {
 /* finish portfolio and contact section later */
 /*Portfolio section*/
 #middle {
-  text-align: center;
-  background-color: #f4f4f4;
-  color: #008080;
-  min-height: 900px;
-  margin: 0 100px 0 100px;
-  border-bottom: solid;
+  background-color: #f7f7f7;
+  padding: 110px 0;
 }
+
 #middle h1 {
-  font-size: 40px;
-  margin-top: 60px;
-  text-decoration: underline;
+  font-size: 2.25rem;
 }
-#middle p {
-  margin-top: 200px;
-  font-size: 25px;
+
+.projects-container {
+  position: relative;
+}
+
+.project-item {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: flex-start;
+  font-size: 1.2rem;
+}
+
+.project-title {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+.project-info {
+  margin-top: 2px;
+  font-size: 0.8rem;
+}
+
+.btn.btn-sm {
+  padding: 0.6px 0.4px;
+  font-size: 0.8rem;
+  border-radius: 0.2rem;
+}
+
+.project-pic {
+  margin-left: 1rem;
+}
+
+.project-pic img {
+  max-width: 150px;
+  height: auto;
+  object-fit: cover;
 }
 
 /*Contact section*/
